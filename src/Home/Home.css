@@ -1,0 +1,61 @@
+/* Intro Section */
+.HomeIntroContainer {
+    width: 100%;
+    height: 79vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: start;
+}
+
+.HomeIntroText {
+    max-width: 40vw;
+    margin-left: 10vw;
+    margin-bottom: 15vh;
+}
+
+.HomeIntroText p {
+    color: #999;
+}
+
+.HomeIntroButton {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: red;
+    outline: red solid 1px;
+    background-color: transparent;
+}
+
+.HomeIntroPictureContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    padding: 0 2rem;
+
+}
+
+.HomeIntroPicture {
+    border-radius: 4px;
+    width: auto;
+    height: 70vh;
+    object-fit: cover;
+    object-position: top;
+    box-shadow: rgba(255, 0, 0, 0.3) 0px 0px 60px; 
+}
+
+body.no-scroll {
+    overflow: hidden; /* Prevents scrolling */
+}

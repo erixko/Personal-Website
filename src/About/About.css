@@ -1,0 +1,87 @@
+.about-container {
+    display: inline-block;
+    text-align: start;
+    background-color: #121212; /* Darker background, but slightly lighter than pure black */
+    padding: 20px;
+    border: 2px solid #0d0d0d; /* Primary black */
+    color: white; /* Text color remains white */
+    width: 70vw;
+    box-shadow: 0 4px 100px rgba(255, 0, 0, 0.1);
+    outline:black solid 1px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.about-section {
+    margin-bottom: 20px;
+}
+.about-section img{
+    width: 7%;
+    height: auto;
+    margin-left: 5vw;
+}
+.about-work-history img{
+    display: block;
+    width: auto;
+    height: 5vh;
+    margin-top: 3vh;
+}
+.about-work-history div{
+    display: flex;
+}
+.about-work-history div p{
+    display: flex;
+    margin-top: 3vh;
+}
+.wolt-p{
+    margin-left: -10%;
+}
+
+.about-section-title {
+    font-size: 1.5rem;
+    color: white; /* Title text is white */
+    border-bottom: 3px solid #d43b24;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    transition: color 0.3s ease; /* Transition to red on hover */
+}
+
+.about-section p, .about-section ul {
+    margin-left: 2vw;
+    line-height: 1.6;
+    color: white; /* Paragraph and list text is white */
+    transition: color 0.3s ease;
+}
+
+.about-section ul {
+    list-style-type: disc;
+}
+
+.about-section ul li {
+    margin-left: 20px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.about-section p:hover, .about-section ul li:hover, .about-section-title:hover {
+    color: #d43b24; /* Change text to red on hover */
+    cursor: default;
+}
+
+.about-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    display: block;
+    margin: 20px auto 0 auto;
+    border-radius: 5px;
+}
+
+.about-button:hover {
+    background-color: #d10000; /* Darken the red */
+    color: white;
+}
