@@ -24,7 +24,7 @@ const Contact = () => {
         e.preventDefault();
         
         // Sending the email using EmailJS
-        emailjs.send('service_5mxc2vi', 'template_478u6kf', formData, 'cBlPtBiGuUaH9IyXj')
+        emailjs.send('CONFIDENTIAL', 'CONFIDENTIAL', formData, 'CONFIDENTIAL')
             .then((response) => {
                 console.log('SUCCESS!', response.status, response.text);
                 alert('Email was sent successfully! I will contact you shortly.');
